@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
     <title>Random Student</title>
 </head>
 <body>
-    <p>
-        salam
-    </p>
-    <p id="demo"></p>
+    <h1>
+        سلام! شما میتونید با رفرش کردن صفحه، نام رندوم یک دانش آموز رو ببینید.
+    </h1>
+    <hr>
+
+    <p id="demo" class="main"></p>
 
     <script>
         Math.random() * 27;
         var salam = Math.floor(Math.random() * 27);
-        const myList = ["AmirParsa Ahamdloo", "Arvin Ahmadi", "MohammadIliya Aflaki", "Parsa Eghdami", "Bardia Amirian", "Shayan Azadi", "MohammadSadra Borhani", "MohammasReza Tabaroki",
-            "AmirAli Hoseinzade", "Daryush Hakim", "Parsa Rezaei", "Alireza Ramezanirad", "Yasin Zeraati", "AmirTaha Zamanzade", "Behbod Salimi", "MohammadReza Shdaloyy",
-            "Aydin Sahrayy", "Abolfazl Taremi", "Yasin Talebian", "Shayan Azizi", "Behzad Afifipor", "AmirAli Kamoos", "Parsa Karami", "Erfan Mohammadzade", "Kasra Mosazade",
-            "AmirHosein Mirdamadi", "AmirMahdi Noori"]
+        const myList = ["امیرپارسا احمدلو", "آروین احمدی", "محمد ایلیا افلاکی", "پارسا اقدامی", "بردیا امیریان", "شایان آزادی", "محمدصدرا برهانی", "محمدرضا تبرکی",
+            "امیرعلی حسین زاده", "داریوش حکیم", "پارسا رضایی", "علیرضا رمضانی راد", "یاسین زراعتی", "امیرطاها زمانزاده", "بهبد سلیمی", "محمدرضا شادالوئی",
+            "آیدین صحرایی", "ابوالفضل طارمی", "یاسین طالبیان", "شایان عزیزی", "بهزاد عفیفی پور", "امیرعلی کاموس", "پارسا کرمی", "عرفان محمدزاده", "کسری موسی زاده",
+            "امیرحسین میردامادی", "امیرمهدی نوری"]
         
         document.getElementById("demo").innerHTML = myList[salam];
     </script>

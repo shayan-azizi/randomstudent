@@ -1,0 +1,52 @@
+/* Fonts */
+
+/* Lalezar  */
+@import url('https://v1.fontapi.ir/css/Lalezar');
+/* Lalezar */
+
+/* Vazir */
+@import url('https://v1.fontapi.ir/css/Vazir');
+/* Vazir */
+
+/* Sahel */
+@import url('https://v1.fontapi.ir/css/Sahel');
+/* Sahel */
+
+/* Fonts */
+
+body {
+    background-image: url(../Images/bk.jpg);
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+
+}
+body * {
+    font-family: Vazir;
+    direction: rtl;
+    text-align: right;
+
+}
+
+.main {
+    font-family: Vazir;
+    text-align: center;
+
+}
+h1 {
+    font-family: Lalezar;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 187, 0);
+    font-weight: normal;
+}
+
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: aqua;
+    height: 1px;
+    border: none;
+
+}
