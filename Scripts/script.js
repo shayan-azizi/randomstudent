@@ -1,3 +1,4 @@
+
 Math.random() * 27;
 var salam = Math.floor(Math.random() * 27);
 const myList = ["امیرپارسا احمدلو", "آروین احمدی", "محمد ایلیا افلاکی", "پارسا اقدامی", "بردیا امیریان", "شایان آزادی", "محمدصدرا برهانی", "محمدرضا تبرکی",
@@ -6,3 +7,10 @@ const myList = ["امیرپارسا احمدلو", "آروین احمدی", "م�
     "امیرحسین میردامادی", "امیرمهدی نوری"]
 
 document.getElementById("demo").innerHTML = myList[salam];
+
+function felan () {
+    var randomNumber = Math.floor(Math.random() * 27);
+    var randomStudent = myList[randomNumber];
+    document.getElementById("printRandomStudent").innerHTML = randomStudent
+}
+

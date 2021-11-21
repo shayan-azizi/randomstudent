@@ -29,6 +29,12 @@ body * {
 
 }
 
+button {
+    text-align: center;
+    margin: auto;
+    background: rgb(14, 108, 163);
+}
+
 .main {
     font-family: Vazir;
     text-align: center;
@@ -51,3 +57,17 @@ hr {
 
 }
 
+.main {
+    text-align: center;
+    margin-left: 700;
+    margin-right: 700   ;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
