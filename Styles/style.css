@@ -55,7 +55,6 @@ hr {
     background-color: aqua;
     height: 1px;
     border: none;
-
 }
 
 .container {
@@ -120,7 +119,6 @@ footer {
 .sticky {
     position: fixed; /* Here's what sticks it */
     bottom: 0; /* to the bottom of the window */
-    left: 0; /* and to the left of the window. */
     margin-bottom: 7px;
     height: 44px;
     width: 100%;
@@ -128,3 +126,4 @@ footer {
     color: #ffffff;
     text-align: center;
 }
+
